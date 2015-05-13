@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html manifest="converter_cache.appcache">
+    <head>
+        <title>Currency Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximumscale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="stylesheet" type="text/css" href="HTML5DoctorReset.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+    <body>
+        <header>Currency Converter</header>
+        <nav id="nav">
+            <p id="navmenu"><img src="menu.png" alt="Show" width="32" height="32"/></p>        
+                <div id="navelem">
+                    <p class="navMenuItem" id="settings">Settings</p>
+                </div>
+        </nav>
+        <main>
+            <div class="display" id="displayElement">
+              
+            </div>
+            <div class="units" id="unitIndicator"></div>
+            <div class="row">
+                <button id="sevenButton" class="calcButton">
+                    7
+                </button>
+                <button id="eightButton" class="calcButton">
+                    8
+                </button> 
+                <button id="nineButton" class="calcButton">
+                    9
+                </button> 
+            </div>
+            <div class="row">
+                <button id="fourButton" class="calcButton">
+                    4
+                </button>
+                <button id="fiveButton" class="calcButton">
+                    5
+                </button> 
+                <button id="sixButton" class="calcButton">
+                    6
+                </button> 
+            </div>
+             <div class="row">
+                <button  id="oneButton" class="calcButton">
+                    1
+                </button>
+                <button id="twoButton" class="calcButton">
+                    2
+                </button> 
+                <button id="threeButton" class="calcButton">
+                    3
+                </button> 
+            </div>
+                <div class="row">
+                <button id="clearButton" class="calcButton">
+                    c
+                </button>
+                <button id="zeroButton" class="calcButton">
+                    0
+                </button> 
+                <button id="equalsButton" class="calcButton">
+                    =
+                </button> 
+            </div>
+
+        </main>
+        <footer>&copy; James Minney 2015</footer>
+        <script src="converterModel.js"></script>
+        <script src="converterView.js"></script>
+        <script src="converterController.js"></script>
+    </body>
+</html>
