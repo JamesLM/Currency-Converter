@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html manifest="converter_cache.appcache">
+    <head>
+        <title>Currency Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximumscale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="stylesheet" type="text/css" href="HTML5DoctorReset.css">
+        <link rel="stylesheet" type="text/css" href="app.css">  
+    </head>
+    <body onload="loadCurrencyRates()">
+        <div>Convert: 
+            <select name = 'fromCurrency' id="fromCurrency">
+            </select>
+        </div>
+        <div>TO Currency: 
+            <select name = 'toCurrency' id="toCurrency">
+            </select>
+        </div>
+        <div>
+            <button onclick="setSettings()">Confirm Settings</button> 
+        </div> 
+        
+        <script src="loadCurrencyRates.js"></script>
+         
+         
+         <div id="result"></div>
+         
+    </body>
+</html>

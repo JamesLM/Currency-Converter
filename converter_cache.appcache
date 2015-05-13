@@ -1,0 +1,15 @@
+CACHE MANIFEST
+
+converterController.js
+converterModel.js
+converterView.js
+index.html
+menu.png
+settings.html
+app.css
+loadCurrencyRates.js
+
+
+
+NETWORK:
+*
